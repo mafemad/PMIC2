@@ -1,0 +1,19 @@
+{% extends "base2.html"%}
+{%block content%}
+   
+
+    
+        <!-- corpo texto -->
+    <div class="forms">
+        <h2>Entre em contato</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nobis, sunt nulla beatae eveniet ex at id, dol.</p>
+        <hr>
+        <label for="email">seu email:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="assunto">assunto:</label><br>
+        <input type="text" name="assunto" id="assunto"><br>
+        <label for="descrição">Descrição:</label><br>
+        <textarea name="descrição" id="descrição" cols="20" rows="2"></textarea><br>
+        <input type="submit" name="enviar" id="enviar">
+    </div>
+    {% endblock %}

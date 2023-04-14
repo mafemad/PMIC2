@@ -31,5 +31,8 @@ h4{
 
  }
  .capa{
-    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
  }

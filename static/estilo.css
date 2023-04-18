@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
- .header{
+.header{
     
         width: 80%;
         display: flex;
@@ -17,11 +17,10 @@
 
  }
  .capa{
-    margin: auto;
-    align-items: center;
-    width: 80%;
-    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
  }
+
 
 footer{
     margin: auto;
